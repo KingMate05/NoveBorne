@@ -25,7 +25,7 @@ class WelcomeScreen extends StatelessWidget {
                   children: [
                     Image.asset(
                       'assets/images/logoNove.png',
-                      height: size.height * 0.12,
+                      height: size.height * 0.32,
                       fit: BoxFit.contain,
                     ),
                     const SizedBox(height: 18),

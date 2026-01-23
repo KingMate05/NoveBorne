@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../widgets/session_scope.dart';
 import 'orders_selection_screen.dart';
 import 'welcome_screen.dart';
@@ -47,7 +46,6 @@ class HomeAfterAuthScreen extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              padding: const EdgeInsets.symmetric(vertical: 24),
               decoration: BoxDecoration(
                 color: Colors.white,
                 boxShadow: [
@@ -60,7 +58,7 @@ class HomeAfterAuthScreen extends StatelessWidget {
               ),
               child: Center(
                 child: _NoveLogoPlaceholder(
-                  height: 48,
+                  height: size.height * 0.12,
                   color: dark,
                 ),
               ),
