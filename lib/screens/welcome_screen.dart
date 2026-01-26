@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'identify_screen.dart';
+import '../theme/app_colors.dart';
 
 class WelcomeScreen extends StatelessWidget {
   static const routeName = '/';
@@ -9,7 +10,8 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.sizeOf(context);
-    const primaryOrange = Color(0xFFF36C21);
+    const primaryOrange = AppColors.primaryOrange;
+
     final contentMaxWidth = size.width >= 600 ? 520.0 : size.width * 0.9;
 
     return Scaffold(
